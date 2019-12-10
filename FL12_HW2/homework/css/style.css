@@ -218,10 +218,12 @@ section.tm-content-box {
     #about,
     .box-work,
     .img-contact-us,
+
     #contact,
     .flex-2-col::after,
     .heading::after,
-    #ideas::after
+    #ideas::after,
+    .blocks::after
     {
         display: none;
     }
@@ -283,7 +285,9 @@ section.tm-content-box {
         padding: 0;
         margin: 0;
     }
-
+    .text-xs-center {
+        margin-bottom: 0;
+    }
 }
    
 
