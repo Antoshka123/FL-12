@@ -23,6 +23,7 @@ Total prize: ${totalPrize}$\rPossible prize at current attempt: ${startPrize}$`)
                 decision = confirm(`Congratulation, you won! Your prize is: ${totalPrize} $. Do you want to continue?`);
                 if (!decision) {
                     attempts = 0;
+                   break;
                 } else if (decision) {
                     for (let i = attempts; i < 4; i++) {
                         startPrize = startPrize * 2;
